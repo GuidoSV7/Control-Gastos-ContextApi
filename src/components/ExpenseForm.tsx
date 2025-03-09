@@ -21,7 +21,7 @@ export default function ExpenseForm() {
         date: new Date()
     })
 
-    const {dispatch,state, reaminingBudget, totalExpenses} = useBudget()
+    const {dispatch,state, reaminingBudget} = useBudget()
 
     const [error, setError] = useState('')
     const [previusAmount, setPreviusAmount] = useState(0)
